@@ -1,0 +1,43 @@
+⚡ Lightning Dodger
+Privacy Policy
+Last Updated: June 2025
+1. Overview
+DodgeLab ("Developer") takes your privacy seriously. This Privacy Policy explains what information Lightning Dodger ("App") collects and how it is used.
+
+2. Information We Collect
+The App processes only the following minimal data:
+
+On-device storage: Nickname, game scores, settings, and owned items — stored only on your device (localStorage) and never transmitted to external servers.
+Profile photo (optional): Only stored locally if you choose to upload one. Never transmitted externally.
+Ad data: Google AdMob may collect advertising identifiers (GAID) to serve ads, subject to Google's Privacy Policy.
+3. Information We Do NOT Collect
+Personal identifiers (name, email, phone number)
+Location data
+Contacts or calendar data
+Financial information
+Health information
+4. Internet Permission Usage
+The App uses the INTERNET permission solely for:
+
+Loading Google AdMob advertisements
+Processing in-app purchases (shields, ad removal)
+5. Third-Party Services
+Google AdMob — Ad delivery (Google Privacy Policy)
+Google Play Billing — In-app purchase processing
+6. Children's Privacy
+This App is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child's data has been collected, please contact us using the information below.
+
+7. Data Security
+All game data is stored locally on your device. No personal data is transmitted to the Developer's servers.
+
+8. Changes to This Policy
+This Privacy Policy may be updated. Significant changes will be communicated through app updates. The latest version is always available on this page.
+
+9. Contact Us
+For privacy-related inquiries, please contact:
+
+📧 Developer: DodgeLab
+
+📱 App: Lightning Dodger
+
+📦 Package: com.dodgelab.lightningdodger
