@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – Snow Dodger</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.7;color:#333}h1{font-size:1.5em;color:#1a73e8}h2{font-size:1.15em;margin-top:1.5em;color:#0d47a1}p,li{font-size:.95em}</style>
+</head>
+<body>
+<h1>Privacy Policy – Snow Dodger</h1>
+<p><strong>Effective date:</strong> June 12, 2026<br>
+<strong>Developer:</strong> DodgeLab (kongzhebing@gmail.com)</p>
+
+<h2>1. Information We Collect</h2>
+<p>Snow Dodger does not require account creation or login. The app collects the following data solely to display advertisements and process in-app purchases:</p>
+<ul>
+<li><strong>Advertising ID (Google Ad ID)</strong> — collected and shared with Google AdMob to serve personalized or non-personalized ads.</li>
+<li><strong>Purchase tokens</strong> — processed through Google Play Billing to fulfill in-app purchases. No payment information is stored by the developer.</li>
+</ul>
+
+<h2>2. Third-Party Services</h2>
+<ul>
+<li><strong>Google AdMob</strong> — displays ads. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+<li><strong>Google Play Billing</strong> — processes in-app purchases.</li>
+<li><strong>Firebase Realtime Database</strong> — stores anonymous leaderboard data (nickname, score, level). No personally identifiable information is stored.</li>
+</ul>
+
+<h2>3. Data Sharing</h2>
+<p>Advertising ID is shared with Google AdMob for ad personalization. No other personal data is shared with third parties.</p>
+
+<h2>4. Data Retention</h2>
+<p>Game progress is stored locally on the device via WebView localStorage. Leaderboard data is retained on Firebase until the monthly season resets.</p>
+
+<h2>5. Children's Privacy</h2>
+<p>Snow Dodger is intended for users aged 13 and above. We do not knowingly collect personal information from children under 13.</p>
+
+<h2>6. Your Choices</h2>
+<p>You can reset your Advertising ID or opt out of ad personalization in your device's Google Settings. Uninstalling the app removes all locally stored data.</p>
+
+<h2>7. Changes</h2>
+<p>We may update this policy. Changes will be posted at this URL.</p>
+
+<h2>8. Contact</h2>
+<p>DodgeLab — kongzhebing@gmail.com</p>
+</body>
+</html>
