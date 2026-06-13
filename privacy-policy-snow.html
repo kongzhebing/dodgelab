@@ -3,44 +3,220 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy – Snow Dodger</title>
-<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.7;color:#333}h1{font-size:1.5em;color:#1a73e8}h2{font-size:1.15em;margin-top:1.5em;color:#0d47a1}p,li{font-size:.95em}</style>
+<title>Snow Dodger – Privacy Policy / 개인정보처리방침</title>
+<style>
+  :root{--bg:#0d1b2a;--card:#1b263b;--ink:#e8eef5;--sub:#9fb3c8;--line:#2c3e50;--accent:#4ea8de;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 80px;}
+  header{text-align:center;padding:28px 0 12px;border-bottom:1px solid var(--line);margin-bottom:28px;}
+  header .em{font-size:44px;}
+  header h1{font-size:24px;margin:8px 0 4px;}
+  header .meta{color:var(--sub);font-size:13px;}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:16px 0;}
+  h2{font-size:18px;margin:0 0 10px;color:var(--accent);}
+  h3{font-size:14px;color:var(--sub);margin:18px 0 6px;text-transform:uppercase;letter-spacing:.04em;}
+  p,li{font-size:15px;color:var(--ink);}
+  ul{padding-left:20px;margin:8px 0;}
+  li{margin:5px 0;}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px;}
+  th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top;}
+  th{background:#16263a;color:var(--sub);font-weight:600;}
+  a{color:var(--accent);}
+  .lang-divider{border:0;border-top:1px dashed var(--line);margin:40px 0;}
+  .small{color:var(--sub);font-size:13px;}
+  code{background:#16263a;padding:1px 6px;border-radius:5px;font-size:13px;}
+</style>
 </head>
 <body>
-<h1>Privacy Policy – Snow Dodger</h1>
-<p><strong>Effective date:</strong> June 12, 2026<br>
-<strong>Developer:</strong> DodgeLab (kongzhebing@gmail.com)</p>
+<div class="wrap">
 
-<h2>1. Information We Collect</h2>
-<p>Snow Dodger does not require account creation or login. The app collects the following data solely to display advertisements and process in-app purchases:</p>
-<ul>
-<li><strong>Advertising ID (Google Ad ID)</strong> — collected and shared with Google AdMob to serve personalized or non-personalized ads.</li>
-<li><strong>Purchase tokens</strong> — processed through Google Play Billing to fulfill in-app purchases. No payment information is stored by the developer.</li>
-</ul>
+<header>
+  <div class="em">🎿</div>
+  <h1>Snow Dodger</h1>
+  <div class="meta">Privacy Policy · 개인정보처리방침<br>
+  Developer / 개발자: Southport · Brand: DodgeLab<br>
+  Last updated / 최종 수정일: 2026-06-13</div>
+</header>
 
-<h2>2. Third-Party Services</h2>
-<ul>
-<li><strong>Google AdMob</strong> — displays ads. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
-<li><strong>Google Play Billing</strong> — processes in-app purchases.</li>
-<li><strong>Firebase Realtime Database</strong> — stores anonymous leaderboard data (nickname, score, level). No personally identifiable information is stored.</li>
-</ul>
+<!-- ===================== ENGLISH ===================== -->
+<section>
+  <h2>1. Overview</h2>
+  <p>This Privacy Policy explains how information is collected, used, stored, and protected in the mobile game <strong>Snow Dodger</strong> ("the App"), provided by Southport, operating under the brand DodgeLab ("the Developer"). By installing and using the App, you are deemed to agree to this Policy.</p>
+</section>
 
-<h2>3. Data Sharing</h2>
-<p>Advertising ID is shared with Google AdMob for ad personalization. No other personal data is shared with third parties.</p>
+<section>
+  <h2>2. Information We Collect</h2>
 
-<h2>4. Data Retention</h2>
-<p>Game progress is stored locally on the device via WebView localStorage. Leaderboard data is retained on Firebase until the monthly season resets.</p>
+  <h3>a. Information you provide directly</h3>
+  <ul>
+    <li><strong>Nickname</strong>: An optional display name you may enter to appear on the global leaderboard. Entering it is optional; if omitted, a randomly generated anonymous code is used. The nickname does not need to be your real name.</li>
+  </ul>
 
-<h2>5. Children's Privacy</h2>
-<p>Snow Dodger is intended for users aged 13 and above. We do not knowingly collect personal information from children under 13.</p>
+  <h3>b. Information generated and transmitted during gameplay</h3>
+  <p>When you set a new personal best, the following data is sent to the global leaderboard service (Google Firebase):</p>
+  <table>
+    <tr><th>Item</th><th>Description</th><th>Purpose</th></tr>
+    <tr><td>Nickname or anonymous code</td><td>Your display name, or a random code if none</td><td>Leaderboard display</td></tr>
+    <tr><td>Score</td><td>Play time and level reached</td><td>Ranking</td></tr>
+    <tr><td>Slope (region)</td><td>Identifier of the slope played</td><td>Record metadata</td></tr>
+    <tr><td>Timestamp</td><td>Time the record was submitted</td><td>Sorting recent records</td></tr>
+  </table>
+  <p class="small">This data does not include directly identifying personal information such as name, email, phone number, location, or contacts.</p>
 
-<h2>6. Your Choices</h2>
-<p>You can reset your Advertising ID or opt out of ad personalization in your device's Google Settings. Uninstalling the app removes all locally stored data.</p>
+  <h3>c. Information stored only locally on your device</h3>
+  <p>Game progress (coins, owned/equipped items, daily-mission progress, best records, settings) is stored only in your device's local storage and is not transmitted to the Developer's servers. It is removed when the App is uninstalled.</p>
 
-<h2>7. Changes</h2>
-<p>We may update this policy. Changes will be posted at this URL.</p>
+  <h3>d. Information automatically collected by third-party SDKs</h3>
+  <p>For advertising and analytics, the App uses Google AdMob and Google Play services, which may collect the advertising identifier (AAID), device information, and approximate location under their own policies. See the Third-Party Services section below.</p>
+</section>
 
-<h2>8. Contact</h2>
-<p>DodgeLab — kongzhebing@gmail.com</p>
+<section>
+  <h2>3. How We Use Information</h2>
+  <ul>
+    <li>Providing the global real-time leaderboard</li>
+    <li>Saving and restoring game progress</li>
+    <li>Serving in-app and rewarded advertisements</li>
+    <li>Processing in-app purchases (IAP)</li>
+    <li>Improving stability and analyzing errors</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Third-Party Services</h2>
+  <p>The App uses the following third-party services, each governed by its own privacy policy:</p>
+  <ul>
+    <li><strong>Google Firebase Realtime Database</strong> – storing and retrieving global rankings<br>
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></li>
+    <li><strong>Google AdMob</strong> – in-app advertising<br>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    <li><strong>Google Play Services / Billing</strong> – in-app purchases<br>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Retention and Deletion</h2>
+  <ul>
+    <li>Leaderboard data is organized monthly and retained for as long as necessary to operate the service.</li>
+    <li>Locally stored data is deleted from your device when the App is uninstalled.</li>
+    <li>To request deletion of submitted leaderboard data (nickname/record), contact us with your anonymous code or nickname and we will remove the relevant record.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Children's Privacy</h2>
+  <p>The App does not knowingly collect personal information targeted at any specific age group. We recommend that nicknames you enter do not contain personally identifying information.</p>
+</section>
+
+<section>
+  <h2>7. User-Generated Content (Nicknames)</h2>
+  <p>Nicknames are display names entered by users and are visible to others. The Developer may remove nicknames that are inappropriate or infringe on the rights of others without prior notice. Please report inappropriate nicknames using the contact below.</p>
+</section>
+
+<section>
+  <h2>8. Changes to This Policy</h2>
+  <p>This Policy may be revised in response to legal requirements or service changes. Any changes will be posted on this page.</p>
+</section>
+
+<section>
+  <h2>9. Contact</h2>
+  <p>For privacy inquiries and data deletion requests, please contact:</p>
+  <p>📧 <strong>kongzhebing@gmail.com</strong><br>
+  <span class="small">e.g., dodgelab.dev@gmail.com — we recommend using the same email registered in your Google Play Console.</span></p>
+</section>
+
+<hr class="lang-divider">
+
+<!-- ===================== KOREAN ===================== -->
+<section>
+  <h2>1. 개요</h2>
+  <p>본 개인정보처리방침은 Southport(브랜드명 DodgeLab, 이하 "개발자")가 제공하는 모바일 게임 <strong>Snow Dodger</strong>(이하 "본 앱")에서 이용자의 정보가 어떻게 수집·이용·보관·보호되는지를 설명합니다. 이용자는 본 앱을 설치·이용함으로써 본 방침의 내용에 동의하는 것으로 간주됩니다.</p>
+</section>
+
+<section>
+  <h2>2. 수집하는 정보</h2>
+
+  <h3>가. 이용자가 직접 입력하는 정보</h3>
+  <ul>
+    <li><strong>닉네임</strong>: 전 세계 랭킹에 표시하기 위해 이용자가 선택적으로 입력하는 표시 이름입니다. 입력은 선택 사항이며, 입력하지 않을 경우 무작위로 생성된 익명 코드가 사용됩니다. 닉네임은 실명일 필요가 없습니다.</li>
+  </ul>
+
+  <h3>나. 게임 이용 과정에서 생성되어 전송되는 정보</h3>
+  <p>이용자가 자신의 최고 기록을 갱신할 때, 다음 정보가 전 세계 랭킹 서비스(Google Firebase)에 전송됩니다.</p>
+  <table>
+    <tr><th>항목</th><th>내용</th><th>목적</th></tr>
+    <tr><td>닉네임 또는 익명 코드</td><td>이용자가 입력한 표시 이름, 미입력 시 무작위 코드</td><td>랭킹 표시</td></tr>
+    <tr><td>기록(점수)</td><td>플레이 시간 및 도달 레벨</td><td>순위 산정</td></tr>
+    <tr><td>슬로프(지역)</td><td>플레이한 슬로프 식별자</td><td>기록 부가 정보</td></tr>
+    <tr><td>전송 시각</td><td>기록 전송 시점의 타임스탬프</td><td>최신 기록 정렬</td></tr>
+  </table>
+  <p class="small">위 정보에는 이름, 이메일, 전화번호, 위치, 연락처 등 직접적인 개인 식별 정보가 포함되지 않습니다.</p>
+
+  <h3>다. 기기에 로컬로만 저장되는 정보</h3>
+  <p>게임 진행 상황(보유 코인, 구매·장착 아이템, 일일 미션 진행, 최고 기록, 설정 등)은 이용자 기기의 로컬 저장소에만 보관되며 개발자의 서버로 전송되지 않습니다. 앱 삭제 시 함께 삭제됩니다.</p>
+
+  <h3>라. 제3자 SDK가 자동으로 수집할 수 있는 정보</h3>
+  <p>광고 및 분석을 위해 본 앱은 Google AdMob 및 Google Play 서비스를 사용하며, 이들 서비스는 광고 식별자(AAID), 기기 정보, 대략적 위치 등을 자체 정책에 따라 수집할 수 있습니다. 자세한 내용은 아래 제3자 서비스 항목을 참고하시기 바랍니다.</p>
+</section>
+
+<section>
+  <h2>3. 정보의 이용 목적</h2>
+  <ul>
+    <li>전 세계 실시간 랭킹 서비스 제공</li>
+    <li>게임 진행 상황 저장 및 복원</li>
+    <li>인앱 광고 게재 및 보상형 광고 제공</li>
+    <li>인앱 구매(IAP) 처리</li>
+    <li>서비스 안정성 개선 및 오류 분석</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. 제3자 서비스</h2>
+  <p>본 앱은 다음의 제3자 서비스를 이용하며, 각 서비스는 자체 개인정보처리방침을 따릅니다.</p>
+  <ul>
+    <li><strong>Google Firebase Realtime Database</strong> – 전 세계 랭킹 저장 및 조회<br>
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></li>
+    <li><strong>Google AdMob</strong> – 인앱 광고 게재<br>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    <li><strong>Google Play 서비스 / 결제</strong> – 인앱 구매 처리<br>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. 보관 및 삭제</h2>
+  <ul>
+    <li>랭킹 정보는 월 단위로 구성되며, 서비스 운영에 필요한 기간 동안 보관됩니다.</li>
+    <li>로컬 저장 데이터는 앱을 삭제하면 기기에서 함께 삭제됩니다.</li>
+    <li>전송된 랭킹 정보(닉네임·기록)의 삭제를 원하실 경우 아래 연락처로 익명 코드 또는 닉네임을 알려주시면 해당 기록을 삭제해 드립니다.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. 아동의 개인정보</h2>
+  <p>본 앱은 특정 연령층을 대상으로 의도적으로 개인정보를 수집하지 않습니다. 이용자가 직접 입력하는 닉네임에는 개인 식별 정보를 포함하지 않을 것을 권장합니다.</p>
+</section>
+
+<section>
+  <h2>7. 이용자 생성 콘텐츠(닉네임)</h2>
+  <p>닉네임은 이용자가 직접 입력하는 표시 이름으로, 다른 이용자에게 공개됩니다. 개발자는 부적절하거나 타인의 권리를 침해하는 닉네임을 사전 통지 없이 삭제할 수 있습니다. 부적절한 닉네임을 발견하신 경우 아래 연락처로 신고해 주시기 바랍니다.</p>
+</section>
+
+<section>
+  <h2>8. 방침의 변경</h2>
+  <p>본 방침은 관련 법령 또는 서비스 변경에 따라 개정될 수 있으며, 변경 시 본 페이지를 통해 고지합니다.</p>
+</section>
+
+<section>
+  <h2>9. 문의처</h2>
+  <p>개인정보 관련 문의 및 데이터 삭제 요청은 아래로 연락해 주시기 바랍니다.</p>
+  <p>📧 <strong>kongzhebing@gmail.com</strong><br>
+  <span class="small">예: dodgelab.dev@gmail.com — Google Play 콘솔에 등록한 이메일과 동일하게 기재하는 것을 권장합니다.</span></p>
+</section>
+
+<p class="small" style="text-align:center;margin-top:30px;">© 2026 Southport (DodgeLab). All rights reserved.</p>
+
+</div>
 </body>
 </html>
