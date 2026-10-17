@@ -1,158 +1,172 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lightning Dodger - Privacy Policy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lightning Dodger — Privacy Policy / 개인정보처리방침</title>
 <style>
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a1a;color:#ddd;line-height:1.8;padding:20px;}
-  .wrap{max-width:800px;margin:0 auto;padding:40px 20px;}
-  h1{font-size:28px;color:#FFE44D;margin-bottom:8px;}
-  .subtitle{font-size:13px;color:#888;margin-bottom:40px;}
-  h2{font-size:18px;color:#FFE44D;margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid #2a2a3a;}
-  p{font-size:14px;color:#ccc;margin-bottom:12px;}
-  ul{padding-left:20px;margin-bottom:12px;}
-  li{font-size:14px;color:#ccc;margin-bottom:6px;}
-  .badge{display:inline-block;background:#1a1a2e;border:1px solid #FFE44D33;border-radius:6px;padding:4px 12px;font-size:12px;color:#FFE44D;margin-bottom:24px;}
-  .contact{background:#1a1a2e;border:1px solid #2a2a3a;border-radius:10px;padding:20px;margin-top:20px;}
-  .lang-switch{text-align:right;margin-bottom:20px;}
-  .lang-btn{background:none;border:1px solid #444;color:#aaa;padding:4px 12px;border-radius:4px;cursor:pointer;font-size:12px;margin-left:6px;}
-  .lang-btn.on{border-color:#FFE44D;color:#FFE44D;}
-  .ko-content,.en-content{display:none;}
-  .ko-content.on,.en-content.on{display:block;}
+:root { --ink:#1a2330; --muted:#5b6b7e; --line:#e2e8f0; --bg:#f7fafc; --accent:#b7791f; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;
+line-height:1.65; font-size:16px; }
+.wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+header { border-bottom:2px solid var(--line); padding-bottom:18px; margin-bottom:8px; }
+h1 { font-size:1.5rem; margin:0 0 4px; }
+h2 { font-size:1.12rem; margin:30px 0 8px; color:var(--accent); }
+h3 { font-size:1rem; margin:18px 0 4px; }
+p, li { color:var(--ink); }
+.meta { color:var(--muted); font-size:.9rem; }
+a { color:var(--accent); word-break:break-word; }
+ul { padding-left:20px; }
+.lang-sep { margin:48px 0 0; border:0; border-top:2px dashed var(--line); }
+.note { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px 16px; font-size:.92rem; color:var(--muted); }
+code { background:#eef2f6; padding:1px 5px; border-radius:4px; font-size:.9em; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="lang-switch">
-    <button class="lang-btn on" onclick="setLang('ko')">한국어</button>
-    <button class="lang-btn" onclick="setLang('en')">English</button>
-  </div>
 
-  <!-- 한국어 -->
-  <div class="ko-content on" id="ko">
-    <h1>⚡ Lightning Dodger</h1>
-    <div class="subtitle">개인정보처리방침 · Privacy Policy</div>
-    <div class="badge">최종 업데이트: 2025년 6월</div>
+<!-- ============================== ENGLISH ============================== -->
+<header>
+<h1>Privacy Policy — Lightning Dodger</h1>
+<p class="meta">App: Lightning Dodger (<code>com.dodgelab.lightningdodger</code>) · Developer: Southport<br>
+Effective date: June 1, 2025 · Last updated: October 17, 2026</p>
+</header>
 
-    <h2>1. 개요</h2>
-    <p>DodgeLab(이하 "개발자")이 제공하는 <strong>Lightning Dodger</strong>(이하 "앱")는 사용자의 개인정보를 매우 중요하게 생각합니다. 본 개인정보처리방침은 앱이 어떤 정보를 수집하고 어떻게 사용하는지 설명합니다.</p>
+<p>This Privacy Policy explains how Southport (“we”, “us”) collects, uses, and shares information when you use the mobile game <strong>Lightning Dodger</strong> (the “App”). By using the App, you agree to the practices described below.</p>
 
-    <h2>2. 수집하는 정보</h2>
-    <p>본 앱은 다음과 같은 최소한의 데이터만 처리합니다:</p>
-    <ul>
-      <li><strong>기기 내 저장 데이터</strong>: 닉네임, 게임 점수, 설정값, 보유 아이템 — 모두 기기 내부(localStorage)에만 저장되며 외부 서버로 전송되지 않습니다.</li>
-      <li><strong>프로필 사진</strong> (선택): 사용자가 직접 업로드하는 경우에만 기기 내부에 저장되며 외부로 전송되지 않습니다.</li>
-      <li><strong>광고 데이터</strong>: 광고 제공을 위해 Google AdMob이 광고 식별자(GAID)를 수집할 수 있습니다. 이는 Google의 개인정보처리방침에 따릅니다.</li>
-    </ul>
+<h2>1. Information We Collect</h2>
+<h3>a. Information stored only on your device</h3>
+<p>Your game progress, best scores, in-game coin balance, owned items, nickname, profile photo, and settings (such as language and music) are saved locally on your device. This information is not transmitted to us and is removed when you uninstall the App. In particular, any profile photo you select stays on your device only and is never uploaded.</p>
 
-    <h2>3. 수집하지 않는 정보</h2>
-    <ul>
-      <li>이름, 이메일, 전화번호 등 개인 식별 정보</li>
-      <li>위치 정보</li>
-      <li>연락처 또는 캘린더 정보</li>
-      <li>금융 정보</li>
-      <li>건강 정보</li>
-    </ul>
+<h3>b. Information you choose to provide</h3>
+<p>If you submit a score to the global ranking, the App sends a <strong>nickname you choose</strong>, your character emoji, your in-game results (score, survival time, coins collected, location played), a timestamp, and the relevant month to our ranking database, together with an anonymous device code generated on your device. Please do not use your real name or any sensitive personal information as your nickname.</p>
 
-    <h2>4. 인터넷 권한 사용 목적</h2>
-    <p>본 앱은 INTERNET 권한을 사용합니다. 이는 다음 목적으로만 사용됩니다:</p>
-    <ul>
-      <li>Google AdMob 광고 로딩</li>
-      <li>인앱 결제 처리 (보호막, 광고 제거 상품)</li>
-    </ul>
+<h3>c. Information collected automatically</h3>
+<ul>
+<li><strong>Usage and analytics data</strong> — via Google Firebase Analytics, we collect app events (e.g., game start, game over, ad views, purchases, rating prompt responses), approximate engagement, app instance identifiers, and basic device/OS information to understand how the App is used and to improve it.</li>
+<li><strong>Advertising data</strong> — via Google AdMob, an advertising identifier and device information may be collected to serve and measure ads.</li>
+</ul>
 
-    <h2>5. 제3자 서비스</h2>
-    <p>본 앱은 다음 제3자 서비스를 사용합니다:</p>
-    <ul>
-      <li><strong>Google AdMob</strong> — 광고 제공 (<a href="https://policies.google.com/privacy" style="color:#FFE44D;">Google 개인정보처리방침</a>)</li>
-      <li><strong>Google Play Billing</strong> — 인앱 결제 처리</li>
-    </ul>
+<h3>d. Purchases</h3>
+<p>In-app purchases are processed by <strong>Google Play Billing</strong>. We do not collect or store your payment card details. We may receive a confirmation that a purchase was completed in order to deliver the purchased item.</p>
 
-    <h2>6. 어린이 보호</h2>
-    <p>본 앱은 만 13세 미만 어린이를 의도적으로 타겟으로 하지 않습니다. 만 13세 미만 어린이의 개인정보를 의도적으로 수집하지 않습니다. 어린이의 데이터가 수집되었다고 판단되는 경우 아래 연락처로 문의해 주시기 바랍니다.</p>
+<h2>2. How We Use Information</h2>
+<ul>
+<li>To operate core features such as global rankings.</li>
+<li>To display and measure advertising.</li>
+<li>To understand usage, fix bugs, and improve the App.</li>
+<li>To process and restore in-app purchases.</li>
+</ul>
 
-    <h2>7. 데이터 보안</h2>
-    <p>모든 게임 데이터는 사용자의 기기 내부에만 저장됩니다. 개발자의 서버로 전송되는 개인 데이터는 없습니다.</p>
+<h2>3. Third-Party Services</h2>
+<p>The App uses the following Google services, which may collect and process data under their own privacy policies:</p>
+<ul>
+<li>Google AdMob (advertising) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>Google Firebase — Analytics and Realtime Database (rankings) — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li>Google Play Billing (purchases) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+</ul>
 
-    <h2>8. 정책 변경</h2>
-    <p>본 개인정보처리방침은 변경될 수 있습니다. 중요한 변경이 있을 경우 앱 업데이트를 통해 공지합니다. 최신 버전은 본 페이지에서 확인하실 수 있습니다.</p>
+<h2>4. Advertising</h2>
+<p>Ads are served by Google AdMob and may be personalized based on your advertising identifier. You can reset or limit your advertising ID in your device settings (Android: Settings → Google → Ads). If you are in the European Economic Area, the United Kingdom or Switzerland, the App asks for your consent through Google's consent form before showing personalized ads. You can change your choice at any time with the "Ad privacy choices" link at the bottom of the home screen.</p>
 
-    <h2>9. 문의</h2>
-    <div class="contact">
-      <p>개인정보 관련 문의사항이 있으시면 아래로 연락해 주세요:</p>
-      <p>📧 <strong>개발사</strong>: DodgeLab</p>
-      <p>📱 <strong>앱명</strong>: Lightning Dodger</p>
-      <p>📦 <strong>패키지</strong>: com.dodgelab.lightningdodger</p>
-    </div>
-  </div>
+<h2>5. Data Sharing</h2>
+<p>We do not sell your personal information. Data is shared only with the third-party service providers listed above as necessary to operate the App.</p>
 
-  <!-- English -->
-  <div class="en-content" id="en">
-    <h1>⚡ Lightning Dodger</h1>
-    <div class="subtitle">Privacy Policy</div>
-    <div class="badge">Last Updated: June 2025</div>
+<h2>6. International Transfer</h2>
+<p>Our ranking and analytics data is processed on Google’s infrastructure, including servers in the Asia–Southeast region. By using the App you consent to this processing.</p>
 
-    <h2>1. Overview</h2>
-    <p>DodgeLab ("Developer") takes your privacy seriously. This Privacy Policy explains what information <strong>Lightning Dodger</strong> ("App") collects and how it is used.</p>
+<h2>7. Children’s Privacy</h2>
+<p>The App is not directed to children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>
 
-    <h2>2. Information We Collect</h2>
-    <p>The App processes only the following minimal data:</p>
-    <ul>
-      <li><strong>On-device storage</strong>: Nickname, game scores, settings, and owned items — stored only on your device (localStorage) and never transmitted to external servers.</li>
-      <li><strong>Profile photo</strong> (optional): Only stored locally if you choose to upload one. Never transmitted externally.</li>
-      <li><strong>Ad data</strong>: Google AdMob may collect advertising identifiers (GAID) to serve ads, subject to Google's Privacy Policy.</li>
-    </ul>
+<h2>8. Data Retention</h2>
+<p>Locally stored data remains until you clear it or uninstall the App. Ranking entries are retained per month for leaderboard purposes. Analytics and advertising data are retained according to Google’s policies.</p>
 
-    <h2>3. Information We Do NOT Collect</h2>
-    <ul>
-      <li>Personal identifiers (name, email, phone number)</li>
-      <li>Location data</li>
-      <li>Contacts or calendar data</li>
-      <li>Financial information</li>
-      <li>Health information</li>
-    </ul>
+<h2>9. Your Choices</h2>
+<ul>
+<li>Reset or limit your advertising ID in device settings.</li>
+<li>Uninstall the App to remove locally stored data.</li>
+<li>Contact us to request deletion of a ranking nickname/entry.</li>
+</ul>
 
-    <h2>4. Internet Permission Usage</h2>
-    <p>The App uses the INTERNET permission solely for:</p>
-    <ul>
-      <li>Loading Google AdMob advertisements</li>
-      <li>Processing in-app purchases (shields, ad removal)</li>
-    </ul>
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The “Last updated” date above reflects the latest version.</p>
 
-    <h2>5. Third-Party Services</h2>
-    <ul>
-      <li><strong>Google AdMob</strong> — Ad delivery (<a href="https://policies.google.com/privacy" style="color:#FFE44D;">Google Privacy Policy</a>)</li>
-      <li><strong>Google Play Billing</strong> — In-app purchase processing</li>
-    </ul>
+<h2>11. Contact</h2>
+<p>If you have questions about this Privacy Policy, contact us at: <strong>dodgelab.dev@gmail.com</strong></p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>This App is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child's data has been collected, please contact us using the information below.</p>
+<hr class="lang-sep">
 
-    <h2>7. Data Security</h2>
-    <p>All game data is stored locally on your device. No personal data is transmitted to the Developer's servers.</p>
+<!-- ============================== 한국어 ============================== -->
+<header style="margin-top:32px;">
+<h1>개인정보처리방침 — Lightning Dodger</h1>
+<p class="meta">앱: Lightning Dodger (<code>com.dodgelab.lightningdodger</code>) · 개발자: 사우스포트(Southport)<br>
+시행일: 2025년 6월 1일 · 최종 수정: 2026년 10월 17일</p>
+</header>
 
-    <h2>8. Changes to This Policy</h2>
-    <p>This Privacy Policy may be updated. Significant changes will be communicated through app updates. The latest version is always available on this page.</p>
+<p>본 방침은 사우스포트(이하 “당사”)가 모바일 게임 <strong>Lightning Dodger</strong>(이하 “앱”) 이용 시 정보를 수집·이용·공유하는 방식을 설명합니다. 앱을 이용함으로써 아래 내용에 동의하는 것으로 간주됩니다.</p>
 
-    <h2>9. Contact Us</h2>
-    <div class="contact">
-      <p>For privacy-related inquiries, please contact:</p>
-      <p>📧 <strong>Developer</strong>: DodgeLab</p>
-      <p>📱 <strong>App</strong>: Lightning Dodger</p>
-      <p>📦 <strong>Package</strong>: com.dodgelab.lightningdodger</p>
-    </div>
-  </div>
+<h2>1. 수집하는 정보</h2>
+<h3>가. 기기에만 저장되는 정보</h3>
+<p>게임 진행 상황, 장소별 최고 기록, 게임 내 코인, 보유 아이템, 닉네임, 프로필 사진, 설정(언어·배경음악 등)은 이용자 기기에 로컬로 저장됩니다. 이 정보는 당사로 전송되지 않으며 앱 삭제 시 함께 제거됩니다. 특히 이용자가 선택한 프로필 사진은 기기에만 저장되며 절대 업로드되지 않습니다.</p>
+
+<h3>나. 이용자가 직접 제공하는 정보</h3>
+<p>글로벌 랭킹에 기록을 제출하는 경우, 이용자가 <strong>직접 입력한 닉네임</strong>, 캐릭터 이모지, 게임 결과(점수·생존 시간·획득 코인·플레이 장소), 기록 시각, 해당 월 정보가 기기에서 생성된 익명 기기 코드와 함께 당사 랭킹 데이터베이스로 전송됩니다. 실명이나 민감한 개인정보를 닉네임으로 사용하지 마십시오.</p>
+
+<h3>다. 자동으로 수집되는 정보</h3>
+<ul>
+<li><strong>이용·분석 데이터</strong> — Google Firebase Analytics를 통해 앱 이벤트(게임 시작·종료, 광고 시청, 구매, 평점 요청 응답 등), 대략적 이용 현황, 앱 인스턴스 식별자, 기본 기기/OS 정보를 수집하여 이용 패턴 파악 및 앱 개선에 사용합니다.</li>
+<li><strong>광고 데이터</strong> — Google AdMob를 통해 광고 식별자 및 기기 정보가 광고 제공·측정 목적으로 수집될 수 있습니다.</li>
+</ul>
+
+<h3>라. 결제</h3>
+<p>인앱 결제는 <strong>Google Play 결제</strong>를 통해 처리됩니다. 당사는 결제 카드 정보를 수집·저장하지 않으며, 구매 상품 지급을 위해 구매 완료 확인 정보만 받을 수 있습니다.</p>
+
+<h2>2. 정보 이용 목적</h2>
+<ul>
+<li>글로벌 랭킹 등 핵심 기능 운영</li>
+<li>광고 표시 및 측정</li>
+<li>이용 현황 파악, 오류 수정, 앱 개선</li>
+<li>인앱 구매 처리 및 복원</li>
+</ul>
+
+<h2>3. 제3자 서비스</h2>
+<p>본 앱은 다음 Google 서비스를 사용하며, 각 서비스는 자체 개인정보처리방침에 따라 데이터를 수집·처리할 수 있습니다.</p>
+<ul>
+<li>Google AdMob(광고) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>Google Firebase — Analytics 및 Realtime Database(랭킹) — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li>Google Play 결제(구매) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+</ul>
+
+<h2>4. 광고</h2>
+<p>광고는 Google AdMob를 통해 제공되며, 광고 식별자를 기반으로 맞춤형으로 표시될 수 있습니다. 기기 설정에서 광고 ID를 재설정하거나 제한할 수 있습니다(안드로이드: 설정 → Google → 광고). 유럽경제지역(EEA), 영국, 스위스 이용자에게는 맞춤형 광고를 표시하기 전에 Google 동의 창으로 동의를 요청합니다. 홈 화면 하단의 "광고 개인정보 설정" 링크에서 언제든 선택을 바꿀 수 있습니다.</p>
+
+<h2>5. 정보 공유</h2>
+<p>당사는 개인정보를 판매하지 않습니다. 데이터는 앱 운영에 필요한 범위에서 위에 명시된 제3자 서비스 제공자와만 공유됩니다.</p>
+
+<h2>6. 국외 이전</h2>
+<p>랭킹 및 분석 데이터는 Asia–Southeast(아시아 동남부) 지역 서버를 포함한 Google 인프라에서 처리됩니다. 앱 이용 시 이러한 처리에 동의하는 것으로 간주됩니다.</p>
+
+<h2>7. 아동의 개인정보</h2>
+<p>본 앱은 만 13세 미만(또는 해당 국가의 최소 연령) 아동을 대상으로 하지 않습니다. 당사는 아동의 개인정보를 고의로 수집하지 않습니다. 아동이 정보를 제공했다고 판단되면 당사에 연락해 주시면 삭제하겠습니다.</p>
+
+<h2>8. 보관 기간</h2>
+<p>로컬 저장 데이터는 이용자가 삭제하거나 앱을 제거할 때까지 유지됩니다. 랭킹 기록은 리더보드 운영을 위해 월 단위로 보관됩니다. 분석·광고 데이터는 Google 정책에 따라 보관됩니다.</p>
+
+<h2>9. 이용자의 선택권</h2>
+<ul>
+<li>기기 설정에서 광고 ID 재설정·제한</li>
+<li>앱 삭제로 로컬 저장 데이터 제거</li>
+<li>랭킹 닉네임/기록 삭제는 당사에 요청</li>
+</ul>
+
+<h2>10. 방침 변경</h2>
+<p>본 방침은 수시로 변경될 수 있으며, 상단의 “최종 수정” 일자가 최신 버전을 나타냅니다.</p>
+
+<h2>11. 문의</h2>
+<p>본 방침에 대한 문의: <strong>dodgelab.dev@gmail.com</strong></p>
+
 </div>
-
-<script>
-function setLang(lang){
-  document.querySelectorAll('.ko-content,.en-content').forEach(function(el){el.classList.remove('on');});
-  document.querySelectorAll('.lang-btn').forEach(function(el){el.classList.remove('on');});
-  document.getElementById(lang).classList.add('on');
-  document.querySelector('.lang-btn[onclick="setLang(\''+lang+'\')"]').classList.add('on');
-}
-</script>
 </body>
 </html>
